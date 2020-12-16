@@ -14,7 +14,7 @@
         </b-card>
 
         <b-card bg-variant="danger" text-variant="white" header="Vote No" class="text-center" footer-tag="footer">
-          <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
+          <b-card-text>Select a scenario.</b-card-text>
           <b-button size="lg" variant="primary" @click="vote('no')">Button</b-button>
           <em slot="footer">{{ votesNo }} voted</em>
         </b-card>
